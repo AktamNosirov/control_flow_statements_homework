@@ -22,7 +22,7 @@ def main(a):
         return "positive even number"
     if a==0 : 
         return "the number is zero"
-print(main(0))
+print(main(67))
 
 
     

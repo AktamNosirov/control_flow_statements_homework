@@ -5,8 +5,12 @@ def main(a,b,c):
     else: b=0 
     if c>0 : c=1 
     else: c=0   
-    ans=a+b+c
-    print("there are a lot of positive numbers" ,ans)
-    print("there are a lot of positive numbers" ,3-ans)
-    return ans 
-print(main(-1,-2,-2.3))
+    ans1=a+b+c
+    ans2=3-ans1
+    if ans1>ans2 : return  print("there are a lot of positive numbers" ,ans1)
+    else : return print("there are a lot of negative numbers" ,ans2)
+print(main(1,-2,-3)) 
+
+
+
+    

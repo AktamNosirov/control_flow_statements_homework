@@ -7,9 +7,11 @@ def main(a,b,c):
     else: c=0   
     ans1=a+b+c
     ans2=3-ans1
-    if ans1>ans2 : return  print("there are a lot of positive numbers" ,ans1)
-    else : return print("there are a lot of negative numbers" ,ans2)
-print(main(1,-2,-3)) 
+    if ans1>ans2 : 
+        return "there are a lot of positive numbers" ,ans1
+    else : 
+        return "there are a lot of negative numbers" ,ans2
+print(main(1,2,-3)) 
 
 
 

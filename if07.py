@@ -12,10 +12,17 @@ def main(a):
     Returns:
         string: the message to print
     """
-    if a>0 and a%2==1 : return "positive odd number"
-    elif a>0 and a%2==0 : return "positive even number"
-    elif a<0 and a%2==1 : return "positive odd number"
-    elif a<0 and a%2==0 : return "positive even number"
-    elif a==0 : return "the number is zero"
+    if a>0 and a%2==1 : 
+        return "positive odd number"
+    if a>0 and a%2==0 : 
+        return "positive even number"
+    if a<0 and a%2==1 :
+         return "positive odd number"
+    if a<0 and a%2==0 : 
+        return "positive even number"
+    if a==0 : 
+        return "the number is zero"
 print(main(0))
+
+
     

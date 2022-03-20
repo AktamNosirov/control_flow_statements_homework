@@ -10,5 +10,5 @@ def main(a):
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
     if a%10*10+a//10<=a : return bool(1) 
-    elif a%10*10+a//10>a : return bool(0)
+    else : return bool(0)
 print(main(78))
